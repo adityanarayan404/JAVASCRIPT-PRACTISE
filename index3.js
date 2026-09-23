@@ -20,3 +20,21 @@ let score = "33abc";
  cibilScore = String (cibilScore); // changed the type from number to string
  console.log(cibilScore);
  console.log(typeof cibilScore);
+
+
+ // more operations
+
+ let str1 = "hello";
+ let str2 = " aditya";
+ let str3 = str1 + str2;
+ console.log(str3);
+
+ console.log("1" + 2);//12
+ console.log(1 + "2");//12
+ console.log(1 + 3 + "2");//42
+ console.log("1" + 3 + 2);//132
+
+ let gameCounter = 100;
+ gameCounter++;
+ //++gameCounter;
+ console.log(gameCounter); //101

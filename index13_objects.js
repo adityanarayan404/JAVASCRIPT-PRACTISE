@@ -1,8 +1,20 @@
 //const tinderUser = new Object()
-const tinderUser = {}
+const tinderUser = {};
 
- tinderUser.id = "123abc";
- tinderUser.name = "Aditya"
- tinderUser.isLoggedIn = false
+tinderUser.id = "123abc";
+tinderUser.name = "Aditya";
+tinderUser.isLoggedIn = false;
 
-console.log(tinderUser);
+// console.log(tinderUser);
+
+const regularUser = {
+  email: "some@gmail.com",
+  fullname: {
+    userfullname: {
+        firstname : "aditya",
+        lastname : "narayan"
+    }
+  },
+};
+
+console.log(regularUser.fullname.userfullname.firstname);
